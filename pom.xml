@@ -21,6 +21,11 @@
             <artifactId>picocli</artifactId>
             <version>${picocli.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -38,7 +43,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.HugeFibonacci</mainClass>
+                                    <mainClass>org.HugeFibonacciMutable</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

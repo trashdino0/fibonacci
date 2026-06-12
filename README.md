@@ -23,14 +23,14 @@ To build the project and create a JAR file, run the following command from the p
 mvn clean package
 ```
 
-This will create a `fibonacci.jar` file in the `target` directory.
+This will create a `fibonacci-1.0-SNAPSHOT.jar` file in the `target` directory.
 
 ## Usage
 
 To run the Fibonacci number calculator, use the following command:
 
 ```bash
-java -jar target/fibonacci.jar <n>
+java -jar target/fibonacci-1.0-SNAPSHOT.jar <n>
 ```
 
 Replace `<n>` with the desired Fibonacci sequence number to calculate.
@@ -38,7 +38,7 @@ Replace `<n>` with the desired Fibonacci sequence number to calculate.
 ### Example
 
 ```bash
-java -jar target/fibonacci.jar 1000000
+java -jar target/fibonacci-1.0-SNAPSHOT.jar 1000000
 ```
 
 The tool will output the following information:
